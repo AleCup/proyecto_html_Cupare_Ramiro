@@ -1,6 +1,8 @@
 header {
-    background: blue;
+    background: rgb(58, 245, 235);
     position: fixed;
+    height: 100%;
+    margin-right: 50px;
 }
 
 nav {
@@ -21,4 +23,13 @@ nav ul li a {
     display: block;
     padding: 15px;
     text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background: yellow;
+}
+
+.texto01 {
+    display: block;
 }
